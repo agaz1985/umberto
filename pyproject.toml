@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "umberto"
+version = "0.1.0"
+description = "CLI tool to analyze class inheritance and suggest composition"
+authors = ["Angelo Zuffiano' <agaz1985@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.82.0"
+rich = "^14.0.0"
+astor = "^0.8.1"
+markdown = "^3.8"
+jinja2 = "^3.1.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+umberto = "umberto.cli:main"
