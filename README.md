@@ -1,4 +1,4 @@
-**# 🔍 Umberto
+# 🔍 Umberto
 ![Umberto Logo](https://github.com/agaz1985/umberto/tree/main/umberto/icon/logo.png)
 
 > *A comprehensive Python inheritance analyzer and refactoring assistant*
