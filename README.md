@@ -1,4 +1,5 @@
-# 🔍 Umberto
+**# 🔍 Umberto
+![Umberto Logo](https://github.com/agaz1985/umberto/tree/main/umberto/icon/logo.png)
 
 > *A comprehensive Python inheritance analyzer and refactoring assistant*
 
@@ -275,14 +276,13 @@ fi
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+We welcome contributions!
 
 ### Development Setup
 ```bash
 git clone https://github.com/yourusername/umberto.git
 cd umberto
-pip install -e ".[dev,ai]"
-pre-commit install
+poetry install
 ```
 
 ### Running Tests
@@ -291,26 +291,11 @@ pytest
 pytest --cov=umberto  # with coverage
 ```
 
-### Code Style
-```bash
-black umberto/
-isort umberto/
-flake8 umberto/
-mypy umberto/
-```
-
-## 📚 Documentation
-
-- [User Guide](docs/user-guide.md)
-- [API Reference](docs/api-reference.md)
-- [Contributing Guide](CONTRIBUTING.md)
-- [Changelog](CHANGELOG.md)
-
 ## 🐛 Issues and Support
 
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/yourusername/umberto/issues)
-- 💡 **Feature Requests**: [GitHub Discussions](https://github.com/yourusername/umberto/discussions)
-- 📧 **Email**: agaz1985@gmail.com
+- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/agaz1985/umberto/issues)
+- 💡 **Feature Requests**: [GitHub Discussions](https://github.com/agaz1985/umberto/discussions)
+- 📧 **Email**: agaz1985 at gmail.com
 
 ## 📄 License
 
@@ -325,10 +310,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/umberto&type=Date)](https://star-history.com/#yourusername/umberto&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=agaz1985/umberto&type=Date)](https://star-history.com/#agaz1985/umberto&Date)
 
 ---
 
 **Made with ❤️ by the Umberto team**
 
-*"Clean inheritance leads to clean code"* - Umberto Philosophy
+*"Clean inheritance leads to clean code"* - Umberto Philosoph*y*
