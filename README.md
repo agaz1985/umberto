@@ -40,7 +40,7 @@ pip install umberto
 
 ### Development Installation
 ```bash
-git clone https://github.com/yourusername/umberto.git
+git clone https://github.com/agaz1985/umberto.git
 cd umberto
 poetry install
 ```
@@ -273,7 +273,7 @@ We welcome contributions!
 
 ### Development Setup
 ```bash
-git clone https://github.com/yourusername/umberto.git
+git clone https://github.com/agaz1985/umberto.git
 cd umberto
 poetry install
 ```
