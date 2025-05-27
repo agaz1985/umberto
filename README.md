@@ -38,18 +38,11 @@ Umberto is a powerful static analysis tool that detects problematic inheritance 
 pip install umberto
 ```
 
-### With AI Refactoring Support
-```bash
-pip install umberto[ai]
-# or
-pip install umberto openai
-```
-
 ### Development Installation
 ```bash
 git clone https://github.com/yourusername/umberto.git
 cd umberto
-pip install -e ".[dev,ai]"
+poetry install
 ```
 
 ## 📖 Quick Start
